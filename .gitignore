@@ -1,0 +1,9 @@
+*.pyc
+**/*.png
+__pycache__
+*.swp
+.cache
+.idea
+.DS_Store
+*_process_id.txt
+*.json
