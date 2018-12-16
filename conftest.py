@@ -7,7 +7,7 @@ from selenium import webdriver
 @pytest.fixture(scope="class")
 def initialize_chrome_driver(request):
     print("initiating chrome driver")
-    driver = webdriver.Chrome("./drivers/chromedriver") #if not added in PATH
+    driver = webdriver.Chrome("./lib/drivers/chromedriver")
     # driver.get("https://google.com")
     driver.maximize_window()
     request.cls.driver = driver
