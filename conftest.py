@@ -7,7 +7,7 @@ from selenium import webdriver
 @pytest.fixture(scope="class")
 def initialize_chrome_driver(request):
     print("initiating chrome driver")
-    driver = webdriver.Chrome("C:\Users\Halloweenboy\Documents\GitHub\a-python-selenium-sample-project\lib\drivers\chromedriver")
+    driver = webdriver.Chrome("D:\Drivers\drivers\chromedriver.exe")
     # driver.get("https://google.com")
     driver.maximize_window()
     request.cls.driver = driver
