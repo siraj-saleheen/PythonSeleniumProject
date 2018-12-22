@@ -2,8 +2,10 @@
 **/*.png
 __pycache__
 *.swp
+.vscode
 .cache
 .idea
 .DS_Store
 *_process_id.txt
 *.json
+*.log
