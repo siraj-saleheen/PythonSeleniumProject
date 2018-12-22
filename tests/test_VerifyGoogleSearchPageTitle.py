@@ -11,7 +11,7 @@ from lib.ui.pages.BasePageHelper import BasePageHelper
 class Test_VerifyGoogleSearchPageTitle:
 
     def test_verify_google_search_page_title(self):
-        # initialize webdriver
+        ## initialize webdriver
         driver = self.driver
         # instantiate page objects
         font_helper = FontHelper()
