@@ -3,8 +3,6 @@
 __author__ = "Siraj Saleheen"
 
 import pytest
-from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import TimeoutException
 
@@ -26,20 +24,6 @@ class GoogleSearchPage(object):
         _search_field.clear()
         _search_field.send_keys(search_term)
         _search_field.send_keys(Keys.RETURN)
-    
-    # def get_page_title(self):
-    #     """ Gets the page title.
-    #     :param: none
-    #     :returns: string 
-    #     """
-    #     return self.driver.title
-
-    # def verify_page_title(self, title):
-    #     """ Verifies the page title.
-    #     :param title: title string to be verified
-    #     :returns: True if successful, False otherwise.         
-    #     """
-    #     return True if title in self.get_page_title() else False
 
     def wait_for_element_loaded(self, css_locator, wait_time=10):
         """ Waits for an element on the page to load.

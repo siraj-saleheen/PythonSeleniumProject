@@ -7,7 +7,6 @@ from lib.ui.pages.GoogleSearchPage import GoogleSearchPage
 from lib.util.FontHelper import FontHelper
 from lib.ui.pages.BasePageHelper import BasePageHelper
 
-# @pytest.mark.usefixtures("initialize_chrome_driver")
 class Test_VerifyGoogleSearchPageTitle:
 
     def test_verify_google_search_page_title(self):
