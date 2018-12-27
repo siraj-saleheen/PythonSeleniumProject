@@ -24,8 +24,4 @@ class BaseClass:
         """ Reimplement this method in your test class to add test-specific cleanup after the last test method finishes
         """
         pass
-
-    # @classmethod
-    # def initiate_driver(self):
-    #     webdriver.Chrome(self.path_to_chrome_driver)
         
