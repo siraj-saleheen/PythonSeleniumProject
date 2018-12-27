@@ -18,7 +18,7 @@ class GoogleSearchPage(object):
     def enter_search_term(self, search_term):
         """ Enters a string value in the search field 
         :param search_term: the test string to be searched
-        :returns: string         
+        :returns: a string         
         """
         _search_field = self.driver.find_element_by_css_selector(self.search_field)
         _search_field.clear()
