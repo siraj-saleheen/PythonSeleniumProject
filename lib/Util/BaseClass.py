@@ -2,15 +2,12 @@
 
 __author__ = "Siraj Saleheen"
 
-# import sys
-# sys.path.append('../')
 import pytest
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchAttributeException, NoSuchElementException, TimeoutException
 
-# @pytest.mark.usefixtures("driver_init")
 class BaseClass:
 
     @classmethod
